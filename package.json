@@ -1,0 +1,15 @@
+{
+  "name": "osm-address-extractor",
+  "version": "0.0.1",
+  "description": "Extract address data from OpenStreetMap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tuukka Hastrup",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@mapbox/tile-reduce": "^3.3.0",
+    "box-intersect": "^1.0.2"
+  }
+}
